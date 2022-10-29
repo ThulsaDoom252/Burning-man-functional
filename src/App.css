@@ -76,10 +76,36 @@ a {
     content: "+1 893 839-23-64";
 }
 
+/*HOME*/
+
 .offer {
     margin-top: 216px;
     padding-bottom: 500px;
     text-transform: uppercase;
+    position: relative;
+}
+
+.message {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-width: 500px;
+    min-width: 200px;
+    min-height: 10%;
+    bottom: 50%;
+    margin: auto 20% auto 20%;
+    border: solid gray;
+    background-color: rgba(245, 0, 0, 0.5);
+    color: black;
+}
+
+.message-button {
+    background-color: transparent;
+    position: relative;
+    bottom: 1.5rem;
+    border: none;
+    color: black;
 }
 
 .offer p {
@@ -107,6 +133,46 @@ a {
     background-color: #FFFFFF;
     color: black;
 }
+
+/*ABOUT*/
+.about-page {
+    max-width: 400px;
+    margin: 12% auto auto auto;
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 2vmax;
+}
+
+.about-page p {
+    padding: 2%;
+}
+
+.about-page-name {
+    letter-spacing: 0.2rem;
+    color: orange;
+    text-transform: uppercase;
+    font-size: 4vmax;
+}
+
+.about-page-purpose {
+    color: yellow;
+}
+
+.about-page-person-link:before {
+    content: "Korotchenko A";
+    color: #6f6cc9;
+}
+
+/*!*CONTACTS*!*/
+/*.contacts-page {*/
+/*    max-width: 400px;*/
+/*    margin: 0 auto;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.contacts-page p> a {*/
+/*    padding: 1%;*/
+/*}*/
 
 /*SECTION*/
 section {
